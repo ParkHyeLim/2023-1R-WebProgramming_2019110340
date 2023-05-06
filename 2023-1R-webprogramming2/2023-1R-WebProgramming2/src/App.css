@@ -1,0 +1,25 @@
+body {
+  justify-content: center;
+  text-align: center;
+}
+button {
+  margin-top: 10px;
+  width: 180px;
+  height: 30px;
+  background-color: #ffccb9;
+  border-radius: 15px;
+  border-color: coral;
+  cursor: pointer;
+}
+table {
+  margin: auto;
+  margin-top: 10px;
+  font-size: 10pt;
+  text-align: center;
+}
+
+th {
+  width: 100px;
+  font-size: 11pt;
+  background-color: rgb(253, 178, 150);
+}
