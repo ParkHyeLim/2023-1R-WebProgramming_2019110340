@@ -110,7 +110,7 @@ function Worldcup() {
           <img
             src={game[round * 2 + 1].src}
             onClick={() => {
-              setNextGame((prev) => prev.concat(game[round * 2]));
+              setNextGame((prev) => prev.concat(game[round * 2 + 1]));
               hideImage(round * 2 + 1);
               setTimeout(() => {
                 divs[3].style.display = 'block';
