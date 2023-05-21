@@ -69,7 +69,7 @@ function Worldcup() {
 
 
   useEffect(() => {
-    const 문자열 = localStorage.getItem("월드컵");
+    const 문자열 = localStorage.getItem("2019110340");
     if (문자열 != null) {
       setStat(JSON.parse(문자열));
     }
@@ -95,7 +95,7 @@ function Worldcup() {
   // 마지막 결승전
   if (game.length === 0 || round + 1 > game.length / 2) {
     if (game.length === 1) {
-      localStorage.setItem("월드컵", JSON.stringify(stat));
+      localStorage.setItem("2019110340", JSON.stringify(stat));
       return (
         <div id='body'>
           <p>이상형 월드컵 우승자</p>
