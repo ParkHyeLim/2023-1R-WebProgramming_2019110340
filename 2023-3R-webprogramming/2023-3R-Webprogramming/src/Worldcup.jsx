@@ -67,7 +67,6 @@ function Worldcup() {
 
   const left = round * 2, right = round * 2 + 1;
 
-
   useEffect(() => {
     const 문자열 = localStorage.getItem("2019110340");
     if (문자열 != null) {
